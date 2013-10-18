@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  TTAppDelegate.h
 //  Trick or Treat Candy Grab
 //
 //  Created by Michael Revell on 10/16/13.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface TTAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

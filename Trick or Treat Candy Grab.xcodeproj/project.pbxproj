@@ -12,13 +12,19 @@
 		41F0B205180FBF490015E136 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F0B204180FBF490015E136 /* UIKit.framework */; };
 		41F0B20B180FBF490015E136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41F0B209180FBF490015E136 /* InfoPlist.strings */; };
 		41F0B20D180FBF490015E136 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F0B20C180FBF490015E136 /* main.m */; };
-		41F0B211180FBF490015E136 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F0B210180FBF490015E136 /* AppDelegate.m */; };
+		41F0B211180FBF490015E136 /* TTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F0B210180FBF490015E136 /* TTAppDelegate.m */; };
 		41F0B213180FBF490015E136 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F0B212180FBF490015E136 /* Images.xcassets */; };
 		41F0B21A180FBF490015E136 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F0B219180FBF490015E136 /* XCTest.framework */; };
 		41F0B21B180FBF490015E136 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F0B200180FBF490015E136 /* Foundation.framework */; };
 		41F0B21C180FBF490015E136 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F0B204180FBF490015E136 /* UIKit.framework */; };
 		41F0B224180FBF490015E136 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41F0B222180FBF490015E136 /* InfoPlist.strings */; };
 		41F0B226180FBF490015E136 /* Trick_or_Treat_Candy_GrabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F0B225180FBF490015E136 /* Trick_or_Treat_Candy_GrabTests.m */; };
+		41F0B232180FBFD20015E136 /* TTLoadingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F0B230180FBFD20015E136 /* TTLoadingVC.m */; };
+		41F0B233180FBFD20015E136 /* TTLoadingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41F0B231180FBFD20015E136 /* TTLoadingVC.xib */; };
+		41F0B23A180FC2010015E136 /* TTLevelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F0B238180FC2010015E136 /* TTLevelVC.m */; };
+		41F0B23B180FC2010015E136 /* TTLevelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41F0B239180FC2010015E136 /* TTLevelVC.xib */; };
+		41F0B2421810FE240015E136 /* TTWinVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F0B2401810FE240015E136 /* TTWinVC.m */; };
+		41F0B2431810FE240015E136 /* TTWinVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41F0B2411810FE240015E136 /* TTWinVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +46,23 @@
 		41F0B20A180FBF490015E136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41F0B20C180FBF490015E136 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41F0B20E180FBF490015E136 /* Trick or Treat Candy Grab-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trick or Treat Candy Grab-Prefix.pch"; sourceTree = "<group>"; };
-		41F0B20F180FBF490015E136 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		41F0B210180FBF490015E136 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41F0B20F180FBF490015E136 /* TTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAppDelegate.h; sourceTree = "<group>"; };
+		41F0B210180FBF490015E136 /* TTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppDelegate.m; sourceTree = "<group>"; };
 		41F0B212180FBF490015E136 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		41F0B218180FBF490015E136 /* Trick or Treat Candy GrabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trick or Treat Candy GrabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F0B219180FBF490015E136 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		41F0B221180FBF490015E136 /* Trick or Treat Candy GrabTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trick or Treat Candy GrabTests-Info.plist"; sourceTree = "<group>"; };
 		41F0B223180FBF490015E136 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41F0B225180FBF490015E136 /* Trick_or_Treat_Candy_GrabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Trick_or_Treat_Candy_GrabTests.m; sourceTree = "<group>"; };
+		41F0B22F180FBFD20015E136 /* TTLoadingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLoadingVC.h; sourceTree = "<group>"; };
+		41F0B230180FBFD20015E136 /* TTLoadingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLoadingVC.m; sourceTree = "<group>"; };
+		41F0B231180FBFD20015E136 /* TTLoadingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTLoadingVC.xib; sourceTree = "<group>"; };
+		41F0B237180FC2010015E136 /* TTLevelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLevelVC.h; sourceTree = "<group>"; };
+		41F0B238180FC2010015E136 /* TTLevelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLevelVC.m; sourceTree = "<group>"; };
+		41F0B239180FC2010015E136 /* TTLevelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TTLevelVC.xib; sourceTree = "<group>"; };
+		41F0B23F1810FE240015E136 /* TTWinVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTWinVC.h; path = ../TTWinVC.h; sourceTree = "<group>"; };
+		41F0B2401810FE240015E136 /* TTWinVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTWinVC.m; path = ../TTWinVC.m; sourceTree = "<group>"; };
+		41F0B2411810FE240015E136 /* TTWinVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TTWinVC.xib; path = ../TTWinVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +122,11 @@
 		41F0B206180FBF490015E136 /* Trick or Treat Candy Grab */ = {
 			isa = PBXGroup;
 			children = (
-				41F0B20F180FBF490015E136 /* AppDelegate.h */,
-				41F0B210180FBF490015E136 /* AppDelegate.m */,
+				41F0B236180FBFEA0015E136 /* view */,
+				41F0B235180FBFE00015E136 /* model */,
+				41F0B234180FBFD80015E136 /* controller */,
+				41F0B20F180FBF490015E136 /* TTAppDelegate.h */,
+				41F0B210180FBF490015E136 /* TTAppDelegate.m */,
 				41F0B212180FBF490015E136 /* Images.xcassets */,
 				41F0B207180FBF490015E136 /* Supporting Files */,
 			);
@@ -142,6 +160,36 @@
 				41F0B222180FBF490015E136 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41F0B234180FBFD80015E136 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				41F0B23F1810FE240015E136 /* TTWinVC.h */,
+				41F0B2401810FE240015E136 /* TTWinVC.m */,
+				41F0B237180FC2010015E136 /* TTLevelVC.h */,
+				41F0B238180FC2010015E136 /* TTLevelVC.m */,
+				41F0B22F180FBFD20015E136 /* TTLoadingVC.h */,
+				41F0B230180FBFD20015E136 /* TTLoadingVC.m */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		41F0B235180FBFE00015E136 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		41F0B236180FBFEA0015E136 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				41F0B2411810FE240015E136 /* TTWinVC.xib */,
+				41F0B231180FBFD20015E136 /* TTLoadingVC.xib */,
+				41F0B239180FC2010015E136 /* TTLevelVC.xib */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +267,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F0B233180FBFD20015E136 /* TTLoadingVC.xib in Resources */,
 				41F0B20B180FBF490015E136 /* InfoPlist.strings in Resources */,
+				41F0B2431810FE240015E136 /* TTWinVC.xib in Resources */,
 				41F0B213180FBF490015E136 /* Images.xcassets in Resources */,
+				41F0B23B180FC2010015E136 /* TTLevelVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F0B211180FBF490015E136 /* AppDelegate.m in Sources */,
+				41F0B211180FBF490015E136 /* TTAppDelegate.m in Sources */,
 				41F0B20D180FBF490015E136 /* main.m in Sources */,
+				41F0B232180FBFD20015E136 /* TTLoadingVC.m in Sources */,
+				41F0B2421810FE240015E136 /* TTWinVC.m in Sources */,
+				41F0B23A180FC2010015E136 /* TTLevelVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +495,7 @@
 				41F0B22B180FBF490015E136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41F0B22C180FBF490015E136 /* Build configuration list for PBXNativeTarget "Trick or Treat Candy GrabTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +504,7 @@
 				41F0B22E180FBF490015E136 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

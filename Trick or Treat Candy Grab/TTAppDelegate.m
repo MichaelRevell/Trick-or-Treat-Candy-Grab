@@ -1,19 +1,23 @@
 //
-//  AppDelegate.m
+//  TTAppDelegate.m
 //  Trick or Treat Candy Grab
 //
 //  Created by Michael Revell on 10/16/13.
 //  Copyright (c) 2013 Michael Revell. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "TTAppDelegate.h"
+#import "TTLoadingVC.h"
 
-@implementation AppDelegate
+@implementation TTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    TTLoadingVC *loading = [[TTLoadingVC alloc] initWithNibName:@"TTLoadingVC" bundle:nil];
+    self.window.rootViewController = loading;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
